@@ -1,10 +1,10 @@
-package com.shvatov.nosqlipcstartertestapp
+package com.shvatov.ipc.app
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class NosqlIpcStarterTestAppApplicationTests {
+class NosqlIpcTestAppApplicationTests {
 
     @Test
     fun contextLoads() {

@@ -1,11 +1,11 @@
-package com.shvatov.nosqlipcstartertestapp
+package com.shvatov.ipc.app
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class NosqlIpcStarterTestAppApplication
+class NosqlIpcTestAppApplication
 
 fun main(args: Array<String>) {
-    runApplication<NosqlIpcStarterTestAppApplication>(*args)
+    runApplication<NosqlIpcTestAppApplication>(*args)
 }
