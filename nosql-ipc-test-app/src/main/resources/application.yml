@@ -1,2 +1,11 @@
 server:
   port: 8081
+
+spring:
+  redis:
+    host: localhost
+    port: 6739
+    username: redis
+    password: redis
+    timeout: 30000
+    connect-timeout: 30000
