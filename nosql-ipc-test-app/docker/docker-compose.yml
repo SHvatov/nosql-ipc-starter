@@ -1,5 +1,15 @@
 version: '2.2'
 services:
+  app:
+    depends_on:
+      - redis
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    restart: always
+
   redis:
     build:
       context: ./redis
